@@ -1,0 +1,8 @@
+body { background: #111; color: white; font-family: 'Courier New', monospace; text-align: center; padding: 50px; }
+.container { border: 5px solid #00ffff; padding: 30px; display: inline-block; background: #000; box-shadow: 10px 10px #ff00ff; }
+.battle-grid { display: flex; align-items: center; gap: 20px; margin: 30px 0; }
+.card { border: 2px solid #fff; padding: 20px; width: 180px; }
+.vs { font-size: 3rem; color: #ff00ff; font-weight: bold; }
+button { background: #00ffff; color: black; border: none; padding: 10px; font-weight: bold; cursor: pointer; width: 100%; }
+button:hover { background: #ff00ff; color: white; }
+.generate-btn { background: #39ff14; font-size: 1.5rem; padding: 15px; margin-top: 20px; width: auto; }
