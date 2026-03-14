@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI FNF Custom Battle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎙️ AI FNF GENERATOR 🎙️</h1>
+        
+        <div class="selection">
+            <label>AI GENRE:</label>
+            <select id="genre">
+                <option value="glitch">Digital Glitch</option>
+                <option value="pixel">8-Bit / Retro</option>
+            </select>
+        </div>
+
+        <div class="battle-grid">
+            <div class="card">
+                <h2>BOYFRIEND</h2>
+                <button onclick="startRecording('bf')">🔴 RECORD BF</button>
+                <p id="status-bf">Status: Empty</p>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="card">
+                <h2>OPPONENT</h2>
+                <button onclick="startRecording('opp')">🔴 RECORD OPP</button>
+                <p id="status-opp">Status: Empty</p>
+            </div>
+        </div>
+
+        <button class="generate-btn" onclick="startAISong()">🔥 GENERATE AI TRACK 🔥</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
